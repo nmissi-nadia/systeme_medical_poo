@@ -1,4 +1,5 @@
 <?php 
+include_once('Utilisateur.class.php');
     class Medecin extends Utilisateur {
         private $specialite;
     
