@@ -1,4 +1,5 @@
-<!-- <?php
+ <?php
+ require "Utilisateur.class.php";
     class Patient extends Utilisateur{
         private $rendezvous;
         public function __construct($nom,$prenom){

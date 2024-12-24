@@ -1,6 +1,3 @@
-
-
-
 <?php 
 
 class Utilisateur{
@@ -18,15 +15,15 @@ class Utilisateur{
         $this->type_utilisateur = $type_utilisateur1;
     }
 
-    protected function afficherNomComplet(){
+    public function afficherNomComplet(){
         return $this->prenom . ' ' . $this->nom;
     }
 
-    protected function changerNom($nv_nom){
+    public function changerNom($nv_nom){
         $this->nom=$nv_nom;
     }
 
-    protected function changerNom($nv_prenom){
+    public function changerpreNom($nv_prenom){
         $this->prenom=$nv_prenom;
     }
 
