@@ -1,2 +1,2 @@
-# systeme_medical_poo
-Implémenter des classes simples comme Utilisateur, Patient, Medecin et tester leur interactivité.
+# Syst-me-M-dical
+Le centre médical veut un système permettant aux patients de gérer leurs rendez-vous, informations personnelles et factures. Le système doit être simple
